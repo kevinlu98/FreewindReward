@@ -1,0 +1,84 @@
+#freewind-reward-btn {
+    background-color: #F0504F;
+    outline: none;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding: 0 30px;
+}
+
+.reward-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 999999999999;
+}
+
+.reward-bg {
+    height: 330px;
+    background-color: #fff;
+    position: fixed;
+    top: 10vh;
+    width: 300px;
+    border-radius: 5px;
+    left: 50vw;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+
+.reward-bg #close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.reward-bg .reward-btn-group {
+    border: 1px solid #C85C41;
+    margin: 10px auto;
+    width: 80%;
+    /*margin-top: 10px;*/
+    border-radius: 3px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.reward-bg .reward-btn-group a {
+    color: #C85C41;
+    background-color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+}
+
+.reward-bg .reward-btn-group a.current {
+    background-color: #C85C41;
+    color: #fff;
+}
+
+.reward-bg .reward-img {
+    margin: 30px auto;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+}
+
+.reward-bg .reward-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.reward-bg h2 {
+    margin: 0;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 900;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
