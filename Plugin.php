@@ -77,7 +77,7 @@ class FreewindReward_Plugin implements Typecho_Plugin_Interface
     {
         ?>
         <link rel="stylesheet"
-              href="<?php echo Helper::options()->siteUrl . __TYPECHO_PLUGIN_DIR__ . '/FreewindReward/css/reward.css'; ?>">
+              href="https://cdn.jsdelivr.net/gh/kevinlu98/FreewindReward@1.0/css/reward.min.css">
         <?php
     }
 
@@ -124,7 +124,7 @@ class FreewindReward_Plugin implements Typecho_Plugin_Interface
                 </div>
             </div>
         </div>
-        <script src="<?php echo Helper::options()->siteUrl . __TYPECHO_PLUGIN_DIR__ . '/FreewindReward/js/reward.js'; ?>"></script>
+        <script src="https://cdn.jsdelivr.net/gh/kevinlu98/FreewindReward@1.0/js/reward.min.js"></script>
         <?php
     }
 
